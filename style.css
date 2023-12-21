@@ -1,0 +1,42 @@
+body{
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+#barradinavigazione{
+    align-items: center;
+    display: flex;
+}
+#logo{
+    position: relative;
+    width: auto;
+    height: 131px;
+    right: 218px;
+}
+#menu_container{
+    position: relative;
+    display: flex;
+    right: 229px;
+}
+.menu {
+    padding: 25px;
+    list-style-type: none;
+}
+.link{
+    font-size: 20px;
+    font-family: fantasy;
+    color: black;
+    text-decoration: none;
+}
+#btn{
+    font-family: fantasy;
+    font-size: 16px;
+    border: 3px solid aqua;
+    background: transparent;
+    width: 115px;
+    height: 32px;
+    position: relative;
+    left: 218px;
+}
