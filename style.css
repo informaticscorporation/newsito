@@ -1,26 +1,32 @@
 body{
-    overflow: hidden;
+   
     
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
 }
+#cont{
+    display: flex;
+    align-items: center;
+}
 #barradinavigazione{
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: space-between;
     position: relative;
     align-items: center;
     display: flex;
-    left: 20%;
+    left: 0;
 }
 #logo{
     position: relative;
     width: auto;
     height: 131px;
-    right: 218px;
 }
 #menu_container{
     position: relative;
     display: flex;
-    right: 229px;
+    right: 0;
 }
 .menu {
     padding: 25px;
@@ -28,19 +34,20 @@ body{
 }
 .link{
     font-size: 20px;
-    font-family: fantasy;
+    font-family: 'Roboto', sans-serif;
     color: black;
     text-decoration: none;
 }
 #btn{
-    font-family: fantasy;
+    color: #065edc;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    border: 3px solid aqua;
+    border: 3px solid #065edc;
     background: transparent;
     width: 115px;
     height: 32px;
     position: relative;
-    left: 218px;
+    left: 152px;
 }
 #container{
 
@@ -53,21 +60,24 @@ body{
     align-items: center;
 }
 #p1{
-    font-family: fantasy;
-    font-size: 25px;
+    margin-bottom: 49px;
+    margin-top: 70px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #858585;
 }
 #titolo1{
     margin-top: -20px;
     text-align: center;
     width: 700px;
-    
+    font-family: 'Roboto', sans-serif;
     font-size: 77px;
 }
 #p2{
     margin-top: -20px;
     text-align: center;
-    width: 471px;
-    font-size: 22px;
+    width: 439px;
+    font-size: 19px;
 }
 #box_input{
     display: flex;
@@ -79,6 +89,7 @@ body{
     margin-right: 7px;
     width: 265px;
     height: 35px;
+    font-family: 'Roboto', sans-serif;
 }
 #btn2{
     border: transparent;
@@ -87,8 +98,22 @@ body{
     color: whitesmoke;
     background-color: orange;
     width: 111px;
+    font-family: 'Roboto', sans-serif;
+}
+#box_pp{
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 #p3{
+    color: #9f9f9f;
     position: relative;
-    left: 43%;
+    font-family: 'Roboto', sans-serif;
 }
+@media screen and (max-width: 1285.60px) {
+    #btn{
+        left:0px;
+    }
+}
+    
+  
