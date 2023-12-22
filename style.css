@@ -78,6 +78,7 @@ body{
     font-size: 19px;
 }
 #box_input{
+    margin: 20px;
     display: flex;
     justify-content: center;
 }
@@ -90,6 +91,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 #btn2{
+    cursor: pointer;
     border: transparent;
     border-radius: 7px;
     font-size: 16px;
@@ -106,6 +108,16 @@ body{
 #p3{
     color: #9f9f9f;
     position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+#btn3{
+    cursor: pointer;
+    border: transparent;
+    border-radius: 7px;
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: orange;
+    width: 111px;
     font-family: 'Roboto', sans-serif;
 }
 @media screen and (max-width: 1285.60px) {
